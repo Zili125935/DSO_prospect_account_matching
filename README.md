@@ -28,4 +28,4 @@ copy the input excel file under folder 'semi_auto_process'
 * Step 4:\
 Go back to Command, copy & paste the following command to run the script
 ```
-python sunshine_run.py
+run_dso_prospect_us.py
