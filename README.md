@@ -1,5 +1,7 @@
 # DSO Prospect Account Matching
 ## Daily Use
+### US DSO customer
+### Canada DSO customer
 ## Environment Set-up
 #### Prerequisite - install Python and Git
 
