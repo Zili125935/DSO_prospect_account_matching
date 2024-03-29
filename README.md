@@ -16,7 +16,7 @@ cd OneDrive - STG-Business\Desktop\DSO Matching
 * Step 2:\
  clone the repo to your local, please copy and paste the following command in your command line
 ```
-git clone https://github.com/Zili125935/semi_auto_process.git
+git clone https://github.com/Zili125935/DSO_prospect_account_matching.git
 cd DSO_prospect_account_matching
 pip install -r requirements.txt
 ```
