@@ -6,23 +6,47 @@
 ### US DSO customer
 * Step 1:\
 Rename the input Excel file to 'Import DSO.xlsx'\
+```
+Import DSO.xlsx
+```
 copy the input Excel file under the folder 'DSO matching','DSO_prospect_account_matching'\
-![input](https://github.com/Zili125935/semi_auto_process/assets/107199759/1c6ae8e4-580e-4e31-a672-3bdd88ec97e9)
+![issue DSO](https://github.com/Zili125935/DSO_prospect_account_matching/assets/107199759/a5e4e3fa-e5a7-4a56-a34f-5489f71949ad)
 **Please make sure rename the new input excel file as 'Import DSO.xlsx' everytime you use this script!**
 
 * Step 2:\
 Open 'Command Prompt', copy paste & enter
 ```
-cd OneDrive - STG-Business\Desktop\Sunshine Act\semi_auto_process
+cd OneDrive - C:\Users\u125935\OneDrive - STG-Business\Desktop\DSO Matching\DSO_prospect_account_matching
 git pull
-python sunshine_run.py
+run_dso_prospect_us.py
 ```
 * Note - \
 Please note if the folder name is changed, you have to change the command as well.\
-For example, if the folder 'Sunshine Act' has be changed to 'Sunshine', the first command will be\
-```cd Desktop\Sunshine\semi_auto_process```
+For example, if the folder 'DSO Matching' has be changed to 'Account Matching', the first command will be\
+```cd Desktop\Account Matching\DSO_prospect_account_matching```
 
 ### Canada DSO customer
+* Step 1:\
+Rename the input Excel file to 'Import DSO Canada.xlsx'\
+```
+Import DSO Canada.xlsx
+```
+copy the input Excel file under the folder 'DSO matching','DSO_prospect_account_matching'\
+![DSO Canada](https://github.com/Zili125935/DSO_prospect_account_matching/assets/107199759/ff75e5d4-7c20-48f4-b29e-43ef37571bae)
+**Please make sure rename the new input excel file as 'Import DSO Canada.xlsx' everytime you use this script!**
+
+* Step 2:\
+Open 'Command Prompt', copy paste & enter
+```
+cd OneDrive - C:\Users\u125935\OneDrive - STG-Business\Desktop\DSO Matching\DSO_prospect_account_matching
+git pull
+run_dso_prospect_ca.py
+```
+* Note - \
+Please note if the folder name is changed, you have to change the command as well.\
+For example, if the folder 'DSO Matching' has be changed to 'Account Matching', the first command will be\
+```cd Desktop\Account Matching\DSO_prospect_account_matching```
+
 ## Environment Set-up
 #### Prerequisite - install Python and Git
 
