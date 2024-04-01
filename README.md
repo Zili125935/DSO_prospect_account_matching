@@ -1,6 +1,27 @@
 # DSO Prospect Account Matching
+
 ## Daily Use
+### If this is the first time you use this script, please go to the [bottom of this page](https://github.com/Zili125935/semi_auto_process#environment-setup) to do the environment set up first
+
 ### US DSO customer
+* Step 1:\
+Rename the input Excel file to 'Import DSO.xlsx'\
+copy the input Excel file under the folder 'DSO matching','DSO_prospect_account_matching'\
+![input](https://github.com/Zili125935/semi_auto_process/assets/107199759/1c6ae8e4-580e-4e31-a672-3bdd88ec97e9)
+**Please make sure rename the new input excel file as 'Import DSO.xlsx' everytime you use this script!**
+
+* Step 2:\
+Open 'Command Prompt', copy paste & enter
+```
+cd OneDrive - STG-Business\Desktop\Sunshine Act\semi_auto_process
+git pull
+python sunshine_run.py
+```
+* Note - \
+Please note if the folder name is changed, you have to change the command as well.\
+For example, if the folder 'Sunshine Act' has be changed to 'Sunshine', the first command will be\
+```cd Desktop\Sunshine\semi_auto_process```
+
 ### Canada DSO customer
 ## Environment Set-up
 #### Prerequisite - install Python and Git
