@@ -5,7 +5,7 @@
 
 ### US DSO customer
 * Step 1:\
-Rename the input Excel file to 'Import DSO.xlsx'\
+Rename the input Excel file to 'Import DSO.xlsx'
 ```
 Import DSO.xlsx
 ```
@@ -32,7 +32,7 @@ For example, if the folder 'DSO Matching' has be changed to 'Account Matching', 
 
 ### Canada DSO customer
 * Step 1:\
-Rename the input Excel file to 'Import DSO Canada.xlsx'\
+Rename the input Excel file to 'Import DSO Canada.xlsx'
 ```
 Import DSO Canada.xlsx
 ```
