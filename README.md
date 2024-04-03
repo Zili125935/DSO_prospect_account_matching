@@ -9,6 +9,11 @@ Rename the input Excel file to 'Import DSO.xlsx'\
 ```
 Import DSO.xlsx
 ```
+* Please make sure you change the input file header. \
+Here is the example
+```
+https://stgcs.sharepoint.com/sites/US01_P_NAMDA/Shared%20Documents/Forms/AllItems.aspx?id=%2Fsites%2FUS01%5FP%5FNAMDA%2FShared%20Documents%2FDSO%20prospect%20check%2FTemplate&viewid=2aab679b%2De916%2D4a18%2D9229%2D7d6e45206e57
+```
 copy the input Excel file under the folder 'DSO matching','DSO_prospect_account_matching'\
 ![issue DSO](https://github.com/Zili125935/DSO_prospect_account_matching/assets/107199759/a5e4e3fa-e5a7-4a56-a34f-5489f71949ad)
 **Please make sure rename the new input excel file as 'Import DSO.xlsx' everytime you use this script!**
@@ -71,6 +76,11 @@ pip install -r requirements.txt
 * Step 3:\
 Rename the input excel file to 'Import DSO.xlsx' \
 copy the input excel file under folder 'DSO_prospect_account_matching'
+* Note -\
+Please make sure you change the input file header. Here is the example
+```
+https://stgcs.sharepoint.com/sites/US01_P_NAMDA/Shared%20Documents/Forms/AllItems.aspx?id=%2Fsites%2FUS01%5FP%5FNAMDA%2FShared%20Documents%2FDSO%20prospect%20check%2FTemplate&viewid=2aab679b%2De916%2D4a18%2D9229%2D7d6e45206e57
+```
 
 * Step 4:\
 Go back to Command, copy & paste the following command to run the script
