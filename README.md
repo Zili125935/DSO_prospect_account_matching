@@ -1,7 +1,7 @@
 # DSO Prospect Account Matching
 
 ## Daily Use
-### If this is the first time you use this script, please go to the [bottom of this page](https://github.com/Zili125935/DSO_prospect_account_matching#environment-setup) to do the environment set up first
+### If this is the first time you use this script, please go to the [bottom of this page](https://github.com/Zili125935/DSO_prospect_account_matching/tree/main?tab=readme-ov-file#environment-set-up) to do the environment set up first
 
 ### US DSO customer
 * Step 1:\
