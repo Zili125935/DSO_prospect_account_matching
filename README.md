@@ -4,12 +4,15 @@
 ### If this is the first time you use this script, please go to the [bottom of this page](https://github.com/Zili125935/DSO_prospect_account_matching/tree/main?tab=readme-ov-file#environment-set-up) to do the environment set up first
 
 ### US DSO customer
-* Step 1:\
-Rename the input Excel file to 'Import DSO.xlsx'
+* #### Step 1:
+Rename the input Excel file to 'Import DSO.xlsx'\
 ```
 Import DSO.xlsx
 ```
-* Please make sure you change the input file header. \
+**There is chance that customer sends csv file, please make sure the you change it into '.xlsx'.\
+It is also possible that multiple sheets are in 1 excel file, please only leave 1 sheet that have customer info and delete others. Thank you!**
+* #### Step 2:
+make sure you change the input file header. 
 Here is the example
 ```
 https://stgcs.sharepoint.com/sites/US01_P_NAMDA/Shared%20Documents/Forms/AllItems.aspx?id=%2Fsites%2FUS01%5FP%5FNAMDA%2FShared%20Documents%2FDSO%20prospect%20check%2FTemplate&viewid=2aab679b%2De916%2D4a18%2D9229%2D7d6e45206e57
@@ -18,7 +21,7 @@ copy the input Excel file under the folder 'DSO matching','DSO_prospect_account_
 ![issue DSO](https://github.com/Zili125935/DSO_prospect_account_matching/assets/107199759/a5e4e3fa-e5a7-4a56-a34f-5489f71949ad)
 **Please make sure rename the new input excel file as 'Import DSO.xlsx' everytime you use this script!**
 
-* Step 2:\
+* ##### Step 3:
 Open 'Command Prompt', copy paste & enter
 ```
 cd OneDrive - STG-Business\Desktop\DSO Matching\DSO_prospect_account_matching
