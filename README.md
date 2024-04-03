@@ -43,7 +43,7 @@ copy the input Excel file under the folder 'DSO matching','DSO_prospect_account_
 * Step 2:\
 Open 'Command Prompt', copy paste & enter
 ```
-cd OneDrive - C:\Users\u125935\OneDrive - STG-Business\Desktop\DSO Matching\DSO_prospect_account_matching
+cd OneDrive - STG-Business\Desktop\DSO Matching\DSO_prospect_account_matching
 git pull
 python run_dso_prospect_ca.py
 ```
