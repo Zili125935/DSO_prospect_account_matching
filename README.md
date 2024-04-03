@@ -18,7 +18,7 @@ Open 'Command Prompt', copy paste & enter
 ```
 cd OneDrive - C:\Users\u125935\OneDrive - STG-Business\Desktop\DSO Matching\DSO_prospect_account_matching
 git pull
-run_dso_prospect_us.py
+python run_dso_prospect_us.py
 ```
 * Note - \
 Please note if the folder name is changed, you have to change the command as well.\
@@ -40,7 +40,7 @@ Open 'Command Prompt', copy paste & enter
 ```
 cd OneDrive - C:\Users\u125935\OneDrive - STG-Business\Desktop\DSO Matching\DSO_prospect_account_matching
 git pull
-run_dso_prospect_ca.py
+python run_dso_prospect_ca.py
 ```
 * Note - \
 Please note if the folder name is changed, you have to change the command as well.\
