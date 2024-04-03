@@ -9,7 +9,7 @@ Rename the input Excel file to 'Import DSO.xlsx'\
 ```
 Import DSO.xlsx
 ```
-**There is chance that customer sends csv file, please make sure the you change it into '.xlsx'.\
+**There is a chance that customer sends csv file, please make sure the you change it into '.xlsx'.\
 It is also possible that multiple sheets are in 1 excel file, please only leave 1 sheet that have customer info and delete others. Thank you!**
 * #### Step 2:
 make sure you change the input file header. 
