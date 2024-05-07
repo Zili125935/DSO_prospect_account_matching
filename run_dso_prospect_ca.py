@@ -13,7 +13,7 @@ def fuzzy_match(s, full_list):
     with_s = [x for x in full_list if x.startswith(s[0:1])]
     if with_s:
         res, score, _ = process.extractOne(s, with_s, scorer=fuzz.WRatio, processor=utils.default_process)
-        if score > 85:
+        if score > 86:
             return res
 
 def main():
@@ -30,18 +30,22 @@ def main():
     join_key_list = list(df_customer['join_key'].unique())
     df_dso['most_close_join_key'] = df_dso['join_key'].swifter.apply(lambda x: fuzzy_match(x, join_key_list))
     result_df = pd.merge(df_dso, df_customer, left_on='most_close_join_key', right_on='join_key', how='left')
-    result_df.drop(['join_key_y', 'join_key_x','most_close_join_key'], axis=1, inplace=True)
     result_df_deduped = result_df.drop_duplicates()
+    matched_df = result_df_deduped[result_df_deduped['join_key_y'].notna()]
+    matched_df.drop(['join_key_y', 'join_key_x','most_close_join_key'], axis=1, inplace=True)
+
 
     resdf = pd.merge(df_dso, df_customer, left_on='most_close_join_key', right_on='join_key', how='left')
-    resdf = resdf[resdf['join_key_y'].isna()]
+    not_matched_df = resdf[resdf['join_key_y'].isna()]
+    not_matched_df.drop(['join_key_y', 'join_key_x','most_close_join_key'], axis=1, inplace=True)
+
 
     time_string = datetime.now().strftime('%Y-%m-%d_%H%M%S')
 
     output_filedir = 'CA_matched_dso_customer_' + time_string + '.xlsx'
-    result_df_deduped.to_excel(output_filedir, index=False)
+    matched_df.to_excel(output_filedir, index=False)
     output_filedir = 'CA_not_found_' + time_string + '.xlsx'
-    resdf.to_excel(output_filedir, index=False)
+    not_matched_df.to_excel(output_filedir, index=False)
     print('completed! Result file saved as ' + output_filedir)
 
 if __name__ == "__main__":
