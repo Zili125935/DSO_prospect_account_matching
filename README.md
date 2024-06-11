@@ -32,6 +32,9 @@ python run_dso_prospect_us.py
 Please note if the folder name is changed, you have to change the command as well.\
 For example, if the folder 'DSO Matching' has be changed to 'Account Matching', the first command will be\
 ```cd Desktop\Account Matching\DSO_prospect_account_matching```
+* Note2 -\
+If you see any 'warnings' when you are processing the python file it is 100% normal.
+![DSO prospect processing hints](https://github.com/Zili125935/DSO_prospect_account_matching/assets/107199759/edd25cae-6736-45d2-8991-57ac16f5ef0c)
 
 ### Canada DSO customer
 * Step 1:\
