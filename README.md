@@ -28,6 +28,12 @@ cd OneDrive - STG-Business\Desktop\DSO Matching\DSO_prospect_account_matching
 git pull
 python run_dso_prospect_us.py
 ```
+Or if your path is 'OneDrive - Straumann Group', please use
+```
+cd OneDrive - Straumann Group\Desktop\DSO Matching\DSO_prospect_account_matching
+git pull
+python run_dso_prospect_us.py
+```
 * Note - \
 Please note if the folder name is changed, you have to change the command as well.\
 For example, if the folder 'DSO Matching' has be changed to 'Account Matching', the first command will be\
