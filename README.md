@@ -66,7 +66,10 @@ For example, if the folder 'DSO Matching' has be changed to 'Account Matching', 
 
 ## Environment Set-up
 #### Prerequisite - install Python and Git
-
+##### Copy the following link for Python and Git installer 
+```
+https://stgcs.sharepoint.com/:f:/r/sites/US01_P_NAMDA/Shared%20Documents/DSO%20prospect%20check/Installer/python%26git?csf=1&web=1&e=IOfDcr
+```
 Open 'Command Prompt' and follow the instruction\
 ![command](https://github.com/Zili125935/semi_auto_process/assets/107199759/0686dfed-c293-4395-8ca9-ffecd353f1cc)
 
